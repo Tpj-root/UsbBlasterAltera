@@ -111,7 +111,27 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
     <td style="width: 200px; word-wrap: break-word;">PROM file format</td>
     <td style="width: 150px; word-wrap: break-word;">Programming PROM devices in daisy-chain configurations</td>
   </tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">13</td>
+  <td style="width: 150px; word-wrap: break-word;">.pof</td>
+  <td style="width: 150px; word-wrap: break-word;">POF File</td>
+  <td style="width: 200px; word-wrap: break-word;">Programming Object File</td>
+  <td style="width: 150px; word-wrap: break-word;">Used for programming FPGA devices, specifically in Intel FPGAs (formerly Altera)</td>
+</tr>
+<tr>
+  <td style="width: 50px; word-wrap: break-word;">14</td>
+  <td style="width: 150px; word-wrap: break-word;">.sof</td>
+  <td style="width: 150px; word-wrap: break-word;">SOF File</td>
+  <td style="width: 200px; word-wrap: break-word;">SRAM Object File</td>
+  <td style="width: 150px; word-wrap: break-word;">Used to configure the logic of an FPGA with the design bitstream for in-system programming</td>
+</tr>
+
 </table>
+
+
+
+
+
 
 
 
