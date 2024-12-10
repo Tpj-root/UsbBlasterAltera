@@ -139,7 +139,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
     <td style="width: 50px; word-wrap: break-word;">Ground</td>
   <td style="width: 150px; word-wrap: break-word;">GND</td>
   <td style="width: 150px; word-wrap: break-word;">10</td>
-  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+  <td style="width: 200px; word-wrap: break-word;">3 </td>
 </tr>
 </table>
 
