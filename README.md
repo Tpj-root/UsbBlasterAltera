@@ -111,21 +111,21 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
     <td style="width: 50px; word-wrap: break-word;"> Not Applicable</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
-  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+  <td style="width: 200px; word-wrap: break-word;">NA </td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">7</td>
     <td style="width: 50px; word-wrap: break-word;"> Not Applicable</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
-  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+  <td style="width: 200px; word-wrap: break-word;">NA </td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">8</td>
     <td style="width: 50px; word-wrap: break-word;"> Not Applicable</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
-  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+  <td style="width: 200px; word-wrap: break-word;">NA </td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">9</td>
