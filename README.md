@@ -13,8 +13,8 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 **JTAG**
 
 <div align="center">
-  <img src="./png/J_tag.png" width="200" height="200" alt="usbblaster">
-    <img src="./png/AS.png" width="200" height="200" alt="usbblaster">
+  <img src="./png/J_tag.png" width="655" height="576" alt="usbblaster">
+    <img src="./png/AS.png" width="835" height="408" alt="usbblaster">
 </div>
 
 
@@ -25,8 +25,8 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 
 
 <div align="center">
-  <img src="./png/PCB_F.png" width="200" height="200" alt="usbblaster">
-    <img src="./png/PCB_B.png" width="200" height="200" alt="usbblaster">
+  <img src="./png/PCB_F.png" width="1140" height="512" alt="usbblaster">
+    <img src="./png/PCB_B.png" width="1075" height="575" alt="usbblaster">
 </div>
 
 
