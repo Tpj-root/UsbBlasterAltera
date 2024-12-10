@@ -168,13 +168,79 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 
 
 
+There is a challenge with the NUMATO Spartan 6 board.
+
+It is possible to program it in the ways:
+
+**Method 1** : Using JTAG with USB Blaster
+
+
+```
+https://github.com/trabucayre/openFPGALoader
+```
 
 
 
 
+**Method 2** : Using a USB data cable with Python code (this method requires only a .bin file).
+
+Therefore, we need to convert the .bit file into a .bin file.
 
 
 
+
+**.bit file into a .bin**
+
+```
+export PATH=$PATH:/home/sab/Xilinx/14.7/ISE_DS/ISE/bin/lin64/
+
+promgen -b -p bin -o 1.bin -u 0 1.bit
+```
+
+
+
+
+```
+Release 14.7 - Promgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+0x5327c (340604) bytes loaded up from 0x0
+Using generated prom size of 512K
+Writing file "1.bin".
+Writing file "1.prm".
+Writing file "1.cfi".
+```
+
+
+
+```
+#Usage : python mimasconfig.py <PORT> <Binary File>
+#Example (Windows) : python mimasconfig.py COM3 mimas.bin
+#Example (Ubuntun 14.04) : python3 mimasconfig.py /dev/ttyACM0 mimas.bin
+```
+
+
+
+
+**FInd the port address**
+
+
+```
+sudo dmesg | grep -i "tty"
+```
+
+
+```
+sab@SH4D0W6:~$ sudo dmesg | grep -i "tty"
+[    0.007732] ACPI: SSDT 0x000000009EF19EA0 000517 (v02 INTEL  TbtTypeC 00000000 INTL 20160422)
+[    0.050661] printk: console [tty0] enabled
+[    3.083644] systemd[1]: Created slice system-getty.slice.
+[ 9490.304969] cdc_acm 1-8:1.0: ttyACM0: USB ACM device
+```
+
+
+```
+python3 mimasconfig.py /dev/ttyACM0 mimas.bin
+```
 
 
 
@@ -185,6 +251,27 @@ https://github.com/gowenrw/BSidesDFW_2020_HHV/tree/master/code/CH552G
 https://www.wch-ic.com/downloads/CH552DS1_PDF.html
 
 ```
+
+
+
+
+
+**Convert the RIO .bit file into a .bin file.**
+
+
+promgen -b -p bin -o rio.bin -u 0 rio.bit
+
+python3 mimasconfig.py /dev/ttyACM0 rio.bin
+
+Result:
+
+
+<div align="center">
+  <img src="./png/Result.gif" width="200" height="200" alt="usbblaster">
+</div>
+
+
+
 
 
 
