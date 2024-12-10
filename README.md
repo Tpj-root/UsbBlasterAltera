@@ -67,9 +67,10 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <tr>
     <th>PIN:NO</th>
     <th>FULL_FORMS</th>
-    <th>PIN:SIGNAL</th>
+    <th>Cyclone_II:SIGNAL</th>
     <th>Cyclone_II</th>
     <th>SPARTAN_6</th>
+    <th>SPARTAN_6:SIGNAL</th>
   </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">1</td>
@@ -77,6 +78,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">TCK</td>
   <td style="width: 150px; word-wrap: break-word;">1</td>
   <td style="width: 200px; word-wrap: break-word;">1 </td>
+    <td style="width: 150px; word-wrap: break-word;">TCK</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">2</td>
@@ -84,6 +86,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">GND</td>
   <td style="width: 150px; word-wrap: break-word;">2</td>
   <td style="width: 200px; word-wrap: break-word;">3 </td>
+    <td style="width: 150px; word-wrap: break-word;">GND</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">3</td>
@@ -91,20 +94,23 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">TDO</td>
   <td style="width: 150px; word-wrap: break-word;">3</td>
   <td style="width: 200px; word-wrap: break-word;">4 </td>
+    <td style="width: 150px; word-wrap: break-word;">TDO</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">4</td>
-    <td style="width: 50px; word-wrap: break-word;">Voltage Common Collector 3.3V</td>
+<td style="width: 50px; word-wrap: break-word;">Voltage Common Collector 3.3V<br>Voltage Reference</td>
   <td style="width: 150px; word-wrap: break-word;">VCC3.3</td>
   <td style="width: 150px; word-wrap: break-word;">4</td>
-  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+  <td style="width: 200px; word-wrap: break-word;">6 </td>
+    <td style="width: 150px; word-wrap: break-word;">VREF</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">5</td>
     <td style="width: 50px; word-wrap: break-word;">Test Mode Select</td>
   <td style="width: 150px; word-wrap: break-word;">TMS</td>
   <td style="width: 150px; word-wrap: break-word;">5</td>
-  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+  <td style="width: 200px; word-wrap: break-word;">6 </td>
+    <td style="width: 150px; word-wrap: break-word;">TMS</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">6</td>
@@ -112,6 +118,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 200px; word-wrap: break-word;">NA </td>
+    <td style="width: 150px; word-wrap: break-word;">NA</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">7</td>
@@ -119,6 +126,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 200px; word-wrap: break-word;">NA </td>
+    <td style="width: 150px; word-wrap: break-word;">NA</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">8</td>
@@ -126,6 +134,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 150px; word-wrap: break-word;">NA</td>
   <td style="width: 200px; word-wrap: break-word;">NA </td>
+    <td style="width: 150px; word-wrap: break-word;">NA</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">9</td>
@@ -133,6 +142,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">TDI</td>
   <td style="width: 150px; word-wrap: break-word;">9</td>
   <td style="width: 200px; word-wrap: break-word;">2 </td>
+    <td style="width: 150px; word-wrap: break-word;">TDI</td>
 </tr>
   <tr>
   <td style="width: 50px; word-wrap: break-word;">10</td>
@@ -140,6 +150,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 150px; word-wrap: break-word;">GND</td>
   <td style="width: 150px; word-wrap: break-word;">10</td>
   <td style="width: 200px; word-wrap: break-word;">3 </td>
+    <td style="width: 150px; word-wrap: break-word;">GND</td>
 </tr>
 </table>
 
