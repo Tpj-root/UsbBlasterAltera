@@ -129,7 +129,18 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 
 
 
-![png/usbblaster.jpg](png/usbblaster.jpg)
+
+<h3 align="center">UsbBlasterAltera</h3>
+
+<div align="center">
+
+  ![usbblaster](./png/usbblaster.jpg)
+
+
+</div>
+
+
+
 
 
 
