@@ -50,6 +50,13 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 </div>
 
 
+**SPARTAN_6_J_TAG**
+
+<div align="center">
+  <img src="./png/SP_S_JTAG.png" width="1140" height="512" alt="usbblaster">
+</div>
+
+
 
 
 
