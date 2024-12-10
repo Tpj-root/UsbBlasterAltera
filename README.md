@@ -1,4 +1,10 @@
-# UsbBlasterAltera
+<h3 align="center">UsbBlasterAltera</h3>
+
+<div align="center">
+  <img src="./png/usbblaster.jpg" width="200" height="200" alt="usbblaster">
+</div>
+
+
 The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Serial Programming modes. 
 
 
@@ -130,14 +136,9 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 
 
 
-<h3 align="center">UsbBlasterAltera</h3>
-
-<div align="center">
-
-  ![usbblaster](./png/usbblaster.jpg)
 
 
-</div>
+
 
 
 
