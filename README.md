@@ -33,6 +33,27 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 
 
 
+**Cyclone_II**
+
+
+<div align="center">
+  <img src="./png/Cyclone_II_F.jpg" width="1140" height="512" alt="usbblaster">
+</div>
+
+
+
+
+**SPARTAN_6**
+
+<div align="center">
+  <img src="./png/SPARTAN_6.png" width="1140" height="512" alt="usbblaster">
+</div>
+
+
+
+
+
+
 
 ```
 
