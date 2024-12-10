@@ -101,7 +101,7 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 <td style="width: 50px; word-wrap: break-word;">Voltage Common Collector 3.3V<br>Voltage Reference</td>
   <td style="width: 150px; word-wrap: break-word;">VCC3.3</td>
   <td style="width: 150px; word-wrap: break-word;">4</td>
-  <td style="width: 200px; word-wrap: break-word;">6 </td>
+  <td style="width: 200px; word-wrap: break-word;">5</td>
     <td style="width: 150px; word-wrap: break-word;">VREF</td>
 </tr>
   <tr>
