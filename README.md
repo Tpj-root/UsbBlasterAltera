@@ -66,6 +66,93 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
 
 
 
+<table>
+  <tr>
+    <th>PIN:NO</th>
+    <th>PIN:NAME</th>
+    <th>Cyclone_II</th>
+    <th>SPARTAN_6</th>
+  </tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">1</td>
+  <td style="width: 150px; word-wrap: break-word;">TCK</td>
+  <td style="width: 150px; word-wrap: break-word;">1</td>
+  <td style="width: 200px; word-wrap: break-word;">1 </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">2</td>
+  <td style="width: 150px; word-wrap: break-word;">GND</td>
+  <td style="width: 150px; word-wrap: break-word;">2</td>
+  <td style="width: 200px; word-wrap: break-word;">3 </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">3</td>
+  <td style="width: 150px; word-wrap: break-word;">TDO</td>
+  <td style="width: 150px; word-wrap: break-word;">3</td>
+  <td style="width: 200px; word-wrap: break-word;">4 </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">4</td>
+  <td style="width: 150px; word-wrap: break-word;">VCC3.3</td>
+  <td style="width: 150px; word-wrap: break-word;">4</td>
+  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">5</td>
+  <td style="width: 150px; word-wrap: break-word;">TMS</td>
+  <td style="width: 150px; word-wrap: break-word;">5</td>
+  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">6</td>
+  <td style="width: 150px; word-wrap: break-word;">NA</td>
+  <td style="width: 150px; word-wrap: break-word;">6</td>
+  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">7</td>
+  <td style="width: 150px; word-wrap: break-word;">NA</td>
+  <td style="width: 150px; word-wrap: break-word;">7</td>
+  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">8</td>
+  <td style="width: 150px; word-wrap: break-word;">NA</td>
+  <td style="width: 150px; word-wrap: break-word;">8</td>
+  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">9</td>
+  <td style="width: 150px; word-wrap: break-word;">TDI</td>
+  <td style="width: 150px; word-wrap: break-word;">9</td>
+  <td style="width: 200px; word-wrap: break-word;">2 </td>
+</tr>
+  <tr>
+  <td style="width: 50px; word-wrap: break-word;">10</td>
+  <td style="width: 150px; word-wrap: break-word;">GND</td>
+  <td style="width: 150px; word-wrap: break-word;">10</td>
+  <td style="width: 200px; word-wrap: break-word;">Raw </td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -76,6 +163,7 @@ https://github.com/gowenrw/BSidesDFW_2020_HHV/tree/master/code/CH552G
 https://www.wch-ic.com/downloads/CH552DS1_PDF.html
 
 ```
+
 
 
 
