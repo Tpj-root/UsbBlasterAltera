@@ -125,8 +125,12 @@ The USB-Blaster cable provides support for Passive Serial, JTAG, and Active Seri
   <td style="width: 200px; word-wrap: break-word;">SRAM Object File</td>
   <td style="width: 150px; word-wrap: break-word;">Used to configure the logic of an FPGA with the design bitstream for in-system programming</td>
 </tr>
-
 </table>
+
+
+
+![usbblaster.jpg](png/usbblaster.jpg)
+
 
 
 
