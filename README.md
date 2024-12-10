@@ -265,11 +265,8 @@ Result:
 
 
 <div align="center">
-  <img src="./png/Result.gif" width="480" height="848" alt="usbblaster">
+  <img src="./png/Result.gif" width="477" height="450" alt="usbblaster">
 </div>
-
-
-
 
 
 
