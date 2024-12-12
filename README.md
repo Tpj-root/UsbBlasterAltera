@@ -177,6 +177,22 @@ It is possible to program it in the ways:
 https://github.com/trabucayre/openFPGALoader
 ```
 
+openFPGALoader -c usb-blaster -m rio.svf
+
+
+
+
+
+
+<div align="center">
+  <img src="./png/cy2.gif" width="600" height="340" alt="usbblaster">
+</div>
+
+
+
+
+
+
 
 
 
